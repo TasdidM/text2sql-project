@@ -40,6 +40,7 @@ def call_intent_llm(query: str, chat_history: List[Dict[str, str]], active_table
     """
     
     # Update the system prompt with explicit rules for the 3 intents
+    # try to add schema for the active data for better understanding.
     system_prompt = f"""<system_intent>
         You are a strict query router for a database assistant. Your sole job is to classify the user's intent based on the active table context, dialogue history, and their latest question.
         </system_intent>
