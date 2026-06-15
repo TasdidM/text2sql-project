@@ -53,5 +53,19 @@ User Query
 [SQL Execution Node]
     │   Runs the query against the database
     ▼
+
+
 [Response Formatting Node]
     └─► Returns result + generated SQL to user
+```
+---
+ 
+## License
+ 
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+ 
+---
+ 
+## Author
+ 
+**Tasdid Mahmud** — [github.com/TasdidM](https://github.com/TasdidM)
